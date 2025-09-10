@@ -1,0 +1,35 @@
+body {
+  background-color: #0d1117; /* GitHub dark background */
+  color: #c9d1d9;
+  height: 100vh;
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#toggle-format {
+  margin-top: 15px;
+}
+
+.clock-container {
+  background-color: #161b22; /* GitHub dark card */
+  padding: 40px 60px;
+  border-radius: 15px;
+  text-align: center;
+  /* No shadow here */
+}
+
+#clock {
+  font-size: 4em;
+  font-weight: 700;
+  color: #f85149; /* GitHub red accent */
+  letter-spacing: 4px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  display: inline-block;
+
+  /* Shadow effect only on time text */
+  box-shadow: 0 0 12px #f85149, 0 0 24px #b62323, 0 0 30px #000000;
+}
